@@ -31,8 +31,8 @@ const settings = {
       import: blue
     },
     secondaryColor: {
-      name: 'red',
-      import: red
+      name: 'gray',
+      import: gray
     },
     type: 'light'
   },
