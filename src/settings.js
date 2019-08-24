@@ -23,7 +23,7 @@ import blueGray from '@material-ui/core/colors/blueGrey';
 /* eslint-enable no-unused-vars */
 
 const settings = {
-  title: 'React + Material-UI + Firebase',
+  title: 'RLTR.LI',
 
   theme: {
     primaryColor: {
@@ -31,21 +31,21 @@ const settings = {
       import: blue
     },
     secondaryColor: {
-      name: 'red',
-      import: red
+      name: 'gray',
+      import: gray
     },
     type: 'light'
   },
 
   credentials: {
     firebase: {
-      apiKey: 'AIzaSyDYZOrZVpXkPQD6J31mb9t2eIIxmGEJK-Q',
-      authDomain: 'react-material-ui-firebase.firebaseapp.com',
-      databaseURL: 'https://react-material-ui-firebase.firebaseio.com',
-      projectId: 'react-material-ui-firebase',
-      storageBucket: 'react-material-ui-firebase.appspot.com',
-      messagingSenderId: '552659850812',
-      appId: '1:552659850812:web:d685f74f72161d96'
+      apiKey: process.env.REACT_APP_APIKEY,
+      authDomain: process.env.REACT_APP_AUTHDOMAIN,
+      databaseURL: process.env.REACT_APP_DBURL,
+      projectId: process.env.REACT_APP_PROJECTID,
+      storageBucket: process.env.REACT_APP_STORAGEBUCKET,
+      messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
+      appId: process.env.REACT_APP_APPID
     }
   }
 };
