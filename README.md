@@ -1,4 +1,4 @@
-# React + Material-UI + Firebase [![Build Status](https://travis-ci.org/Phoqe/react-material-ui-firebase.svg?branch=master)](https://travis-ci.org/Phoqe/react-material-ui-firebase)
+# RLTR.LI
 
 This project is an application skeleton for a typical [React](https://reactjs.org) project. It comes bundled with [Material-UI](https://material-ui.com), [Firebase](https://firebase.google.com), and [React Router](https://reacttraining.com/react-router). With [Create React App](https://facebook.github.io/create-react-app) at its core, you can use it to bootstrap your projects and development environment with the same tooling.
 
@@ -148,27 +148,27 @@ Remember to follow the proper casing for colors, there are 2 variants: color nam
 
 Available colors:
 
-|Name|Import|
-|---|---|
-|`'red'`|`red`|
-|`'pink'`|`pink`|
-|`'purple'`|`purple`|
-|`'deep-purple'`|`deepPurple`|
-|`'indigo'`|`indigo`|
-|`'blue'`|`blue`|
-|`'light-blue'`|`lightBlue`|
-|`'cyan'`|`cyan`|
-|`'teal'`|`teal`|
-|`'green'`|`green`|
-|`'light-green'`|`lightGreen`|
-|`'lime'`|`lime`|
-|`'yellow'`|`yellow`|
-|`'amber'`|`amber`|
-|`'orange'`|`orange`|
-|`'deep-orange'`|`deepOrange`|
-|`'brown'`|`brown`|
-|`'gray'`|`gray`|
-|`'blue-gray'`|`blueGray`|
+| Name            | Import       |
+| --------------- | ------------ |
+| `'red'`         | `red`        |
+| `'pink'`        | `pink`       |
+| `'purple'`      | `purple`     |
+| `'deep-purple'` | `deepPurple` |
+| `'indigo'`      | `indigo`     |
+| `'blue'`        | `blue`       |
+| `'light-blue'`  | `lightBlue`  |
+| `'cyan'`        | `cyan`       |
+| `'teal'`        | `teal`       |
+| `'green'`       | `green`      |
+| `'light-green'` | `lightGreen` |
+| `'lime'`        | `lime`       |
+| `'yellow'`      | `yellow`     |
+| `'amber'`       | `amber`      |
+| `'orange'`      | `orange`     |
+| `'deep-orange'` | `deepOrange` |
+| `'brown'`       | `brown`      |
+| `'gray'`        | `gray`       |
+| `'blue-gray'`   | `blueGray`   |
 
 Available types:
 
