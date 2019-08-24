@@ -4,6 +4,7 @@ import 'typeface-roboto';
 import './index.css';
 import App from './App/App';
 import * as serviceWorker from './serviceWorker';
+require('dotenv').config();
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

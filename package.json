@@ -1,10 +1,11 @@
 {
-  "name": "react-material-ui-firebase",
+  "name": "rltr.li",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.3.3",
     "@material-ui/icons": "^4.2.1",
+    "dotenv": "^8.1.0",
     "firebase": "^6.4.1",
     "gh-pages": "^2.1.1",
     "mdi-material-ui": "^6.4.1",
@@ -36,5 +37,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://phoqe.me/react-material-ui-firebase"
+  "homepage": "https://rltr.li"
 }
