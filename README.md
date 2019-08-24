@@ -29,10 +29,6 @@ Check out [this guide](https://github.com/nitishdayal/cra_closer_look) for an ov
 
 The tradeoff is that **these tools are preconfigured to work in a specific way**. If your project needs more customization, you can ["eject"](https://facebook.github.io/create-react-app/docs/available-scripts#npm-run-eject) and customize it, but then you will need to maintain this configuration.
 
-## Demo
-
-https://phoqe.me/react-material-ui-firebase
-
 ## Getting started
 
 **You’ll need to have Node >= 8.10 on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to easily switch Node versions between different projects.
@@ -41,21 +37,17 @@ https://phoqe.me/react-material-ui-firebase
 
 The command `git clone` is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository. Replace `<your-project-name>` with the name of your project or remove that part of the command if you want to use the `react-material-ui-firebase` name for your project directory.
 
-```
-git clone https://github.com/Phoqe/react-material-ui-firebase.git <your-project-name>
-```
-
 ### Install dependencies
 
 Use the `cd` command, also known as `chdir` (change directory) to change the current working directory to your newly cloned project. Again, change `<your-project-name>` to reflect the correct directory name for your project.
 
-```
+```bash
 cd <your-project-name>
 ```
 
 The command `yarn install` is used to install all dependencies for the project. Running `yarn` with no command will run `yarn install`, passing through any provided flags.
 
-```
+```bash
 yarn install
 ```
 
@@ -72,10 +64,6 @@ Inside the newly created project, you can run some built-in commands:
 Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
-
-<p align='center'>
-  <img src='https://cdn.rawgit.com/marionebl/create-react-app/9f62826/screencast-error.svg' width='600' alt='Build errors'>
-</p>
 
 ### `npm test` or `yarn test`
 
