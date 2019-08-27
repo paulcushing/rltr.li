@@ -9,13 +9,13 @@ import { withStyles } from '@material-ui/core/styles';
 import Fab from '@material-ui/core/Fab';
 
 import CodeIcon from '@material-ui/icons/Code';
-import HomeIcon from '@material-ui/icons/Home';
 
 import GitHubCircleIcon from 'mdi-material-ui/GithubCircle';
 
 import EmptyState from '../../layout/EmptyState/EmptyState';
+import LinkTable from './LinkTable';
 
-const styles = (theme) => ({
+const styles = theme => ({
   emptyStateIcon: {
     fontSize: theme.spacing(12)
   },
@@ -39,16 +39,19 @@ class HomeContent extends Component {
 
     if (isSignedIn) {
       return (
-        <EmptyState
-          icon={<HomeIcon className={classes.emptyStateIcon} color="action" />}
-          title="Home"
-          description="Use React + Material-UI + Firebase as the starting-point for your project"
-          button={
-            <Fab className={classes.button} color="secondary" component={Link} to="/some-magic" variant="extended">
-              Click For Some Magic
-            </Fab>
-          }
-        />
+        <React.Fragment>
+          <Fab
+            className={classes.button}
+            color="secondary"
+            component={Link}
+            to="/some-magic"
+            variant="extended"
+          >
+            Click For Some Magic
+          </Fab>
+
+          <LinkTable />
+        </React.Fragment>
       );
     }
 
@@ -58,7 +61,14 @@ class HomeContent extends Component {
         title={title}
         description="The three musketeers, all in one pack in the form of a boilerplate app"
         button={
-          <Fab className={classes.button} color="secondary" href="https://github.com/Phoqe/react-material-ui-firebase" rel="noopener noreferrer" target="_blank" variant="extended">
+          <Fab
+            className={classes.button}
+            color="secondary"
+            href="https://github.com/Phoqe/react-material-ui-firebase"
+            rel="noopener noreferrer"
+            target="_blank"
+            variant="extended"
+          >
             <GitHubCircleIcon className={classes.buttonIcon} />
             GitHub
           </Fab>
